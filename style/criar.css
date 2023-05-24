@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: N01;
+    src: url(../fonts/nunito/static/Nunito-Bold.ttf);
+}
+body{
+    background-image: url(../img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.inpuntadicionar{
+    background-color:#2c1e4a00;
+    width: 50%;
+    margin: 1%;
+    padding: 1%;
+    border: none;
+    border-bottom: 2px solid #fdfdfd7c;
+    outline: none;
+    color: white;
+    font-family: N01;
+}
+.inpuntadicionar:focus{
+    border-bottom: 2px solid #D73CBE;
+}
+
+.inpuntadicionar::placeholder{
+    color: white;
+    font-family: N01;
+}
+.cadastrar{
+    padding: 1%;
+    margin-top: 3%;
+    background-color: #2c1e4a00;
+    border: 2px solid #D73CBE;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.cadastrar:hover{
+    background-color: #D73CBE;
+}
