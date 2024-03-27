@@ -2,4 +2,4 @@
 # crudphp
 Projeto desenvolvido a ideia de treinar o Read, Edit, Add e Delete.
 
-link: fourdevs.com.br/wilkenio/crud/
+link: https://fourdevs.com.br/wilkenio/crud/
